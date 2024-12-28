@@ -11,6 +11,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'], // Tambahkan Poppins sebagai font kustom
+        ysabeau: ['Ysabeau SC', 'sans-serif'],
       },
       keyframes: {
         typing: {

@@ -36,16 +36,16 @@ const Nav = () => {
 
     return (
         <>
-            <nav className="backdrop-blur-md sticky top-0 z-50 hidden sm:flex items-center justify-between px-10 py-5 text-gray-800 dark:text-white">
-                <Link className="lg:text-lg md:text-sm font-mono" to="/">
-                    <h1>Achmad Nazriel Pradita</h1>
-                    <div className="text-gray-500 dark:text-gray-400">Front-end Developer</div>
+            <nav className="backdrop-blur-md sticky top-0 z-50 hidden sm:flex items-center justify-between px-10 py-5 text-gray-800 dark:text-white font-ysabeau">
+                <Link className="lg:text-lg md:text-sm " to="/">
+                    <h1 className='text-gray-700 dark:text-gray-300'>Pesona</h1>
+                    <div className="text-3xl font-semibold">MOJOKERTO</div>
                 </Link>
-                <ul className="lg:text-xl md:text-sm flex items-center justify-center gg gap-16 nav">
+                <ul className="lg:text-xl md:text-sm flex items-center justify-center  gap-16 nav">
                     {/* Ganti <a> dengan <Link> untuk navigasi internal */}
                     <li>
                         <Link className='relative text-xl text-gray-900 dark:text-white hover:before:w-full before:transition-all before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:bg-gray-900 dark:before:bg-white' to="/technology">
-                            Technology
+                            Sejarah
                         </Link>
                     </li>
                     <li>
